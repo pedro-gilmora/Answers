@@ -1,0 +1,45 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "BugsManagerContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": "Models",
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "BugsManager",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Bug]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Project]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "BugsManagerDb",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": true,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": true,
+   "UseSchemaFolders": false,
+   "UseSpatial": false
+}

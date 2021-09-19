@@ -1,0 +1,39 @@
+﻿@model BugsManager.Controllers.IndexInfo
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Bugs Manager</h1>
+</div>
+
+
+<div class="container">
+    <div class="card-columns align-content-center justify-content-center align-items-center">
+        <div class="p-3">
+            <div class="card-block white-text bg-primary rounded-circle" style="width: 200px; height: 200px">
+                <h4 class="card-title text-center">Projects</h4>
+                <p class="card-text text-center display-1">
+                    @Model.ProjectsCount
+                </p>
+            </div>
+        </div>
+        <div class="p-3">
+            <div class="card-block white-text bg-primary rounded-circle" style="width: 200px; height: 200px">
+                <h4 class="card-title text-center">Bugs</h4>
+                <p class="card-text text-center display-1">
+                    @Model.BugsCount
+                </p>
+            </div>
+        </div>
+        <div class="p-3">
+            <div class="card-block white-text bg-primary rounded-circle" style="width: 200px; height: 200px">
+                <h4 class="card-title text-center">Users</h4>
+                <p class="card-text text-center display-1">
+                    @Model.UsersCount
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
