@@ -1,6 +1,6 @@
 # Answers to GSI test
 
-## Exercise 1
+## Exercise 1 - Find smallest positive not listed
 ```csharp
 private static int Solution(params int[] arr)
 {
@@ -24,14 +24,14 @@ private static int Solution(params int[] arr)
 }
 ```
 
-## Exercise 2
+## Exercise 2 - Find the bug line
 
 ```csharp
 for (int i = 1; i < numbers.Length; i++)
             |^| Array evaluations must start at zero
 ```
 
-## Exercise 3
+## Exercise 3 - Bugs Manager Web App
 
 ### [👉BugsManager Project ASP.NET Core MVC 5👈](https://github.com/pedro-gilmora/Answers/tree/master/BugsManager)
 
