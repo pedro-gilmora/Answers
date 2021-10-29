@@ -24,7 +24,7 @@ private static int Solution(params int[] arr)
 }
 ```
 
-## Exercise 2 - Find the bug line
+## Exercise 2 - Find the buggy line
 
 ```csharp
 for (int i = 1; i < numbers.Length; i++)
